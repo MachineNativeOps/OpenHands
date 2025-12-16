@@ -57,7 +57,7 @@ tornado = "*"
 python-dotenv = "*"
 rapidfuzz = "^3.9.0"
 whatthepatch = "^1.0.6"
-protobuf = "^5.0.0,<6.0.0"                         # Updated to support newer opentelemetry
+protobuf = ">=5,<7"                         # Updated to support newer opentelemetry
 opentelemetry-api = "^1.33.1"
 opentelemetry-exporter-otlp-proto-grpc = "^1.33.1"
 
@@ -87,7 +87,7 @@ bashlex = "^0.18"
 
 # Explicitly pinned packages for latest versions
 pypdf = "^6.0.0"
-pillow = "^11.3.0"
+pillow = ">=11.3,<13.0"
 starlette = "^0.48.0"
 urllib3 = "^2.5.0"
 requests = "^2.32.5"
